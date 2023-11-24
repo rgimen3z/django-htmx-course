@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-htmx-course"
+version = "0.1.0"
+description = ""
+authors = ["rgimen3z"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.7"
+more-itertools = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
